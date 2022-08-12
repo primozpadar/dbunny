@@ -1,0 +1,39 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --toolbar-height: 50px;
+
+  --purple: rgb(137, 18, 222);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #24252a;
+  color: white;
+  color-scheme: dark;
+}
+
+input,
+select,
+button {
+  outline: none;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  box-shadow: 0 0 0 1px var(--purple);
+}
